@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+*.tmp
+*.temp
+*.bak
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and generated artifacts
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
